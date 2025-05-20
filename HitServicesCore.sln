@@ -5,8 +5,6 @@ VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitServicesCore", "HitServicesCore.csproj", "{4D83A5B4-F169-1C1D-F9B0-DAC6C966B509}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendInvoiceViaEmail", "..\SendInvoiceViaEmail\SendInvoiceViaEmail.csproj", "{1E8C28D9-7F19-D27A-9A54-BD7AA0599853}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{4D83A5B4-F169-1C1D-F9B0-DAC6C966B509}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D83A5B4-F169-1C1D-F9B0-DAC6C966B509}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D83A5B4-F169-1C1D-F9B0-DAC6C966B509}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E8C28D9-7F19-D27A-9A54-BD7AA0599853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E8C28D9-7F19-D27A-9A54-BD7AA0599853}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E8C28D9-7F19-D27A-9A54-BD7AA0599853}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E8C28D9-7F19-D27A-9A54-BD7AA0599853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
