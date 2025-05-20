@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>HitServicesCore</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NLog">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="HitHelpersNetCore">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\HitHelpersNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.Core">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Hangfire.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="HitCustomAnnotations">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\HitCustomAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="NCrontab">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\NCrontab.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog.Web.AspNetCore">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\NLog.Web.AspNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.WindowsServices">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Microsoft.AspNetCore.Hosting.WindowsServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Extensions.Microsoft.DependencyInjection">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.AspNetCore">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Hangfire.AspNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlClient">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Hangfire.MemoryStorage">
+      <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\Hangfire.MemoryStorage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
