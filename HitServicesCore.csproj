@@ -11,9 +11,6 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="NLog">
       <HintPath>\\filesrv\DEV\VERSIONS\HiT Services Core\HiTServicesCore\3.0.29.0\NLog.dll</HintPath>
     </Reference>
